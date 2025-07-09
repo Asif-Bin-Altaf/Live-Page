@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nidarun Food cart</title>
     <style>
-        .aaa{
-            color: brown;
+        p{
+            text-align: center;
+            text-shadow: 2px 2px 5px red;
+            font-size: 3em;
+            font-weight: 900;
+            border: 2px solid black;
+            background-color: cadetblue;
+            border-radius: 10px;
+        }
+        .aa{
+            font-size: 2em;
+            text-align: left;
+            margin: 10px;
+            font-weight: 700;
+            background-color: aquamarine;
+        }
+        form{
+            text-align: center;
+        }
+        fieldset{
+            border: none;
         }
     </style>
 </head>
@@ -14,36 +33,38 @@
     <form>
         <p>Select Your Food Item</p>
         <fieldset>
-            <legend>Set Menu(Choose one)</legend>
+            <legend style="font-size: 2em; font-weight: 700; color: brown;">Set Menu(Choose one)</legend>
             <input type="radio" name="any" id="Grilled">
-            <label for="Grilled">Grilled chicken and fried rice</label>
+            <label style="font-size: 1.5em; font-weight: 700;" for="Grilled">Grilled chicken and fried rice</label><br>
             <input type="radio" name="any" id="Tanduri">
-            <label for="Tanduri">Tanduri chicken and fried rice</label>
+            <label style="font-size: 1.5em; font-weight: 700;" for="Tanduri">Tanduri chicken and fried rice</label><br>
             <input type="radio" name="any" id="Kebab">
-            <label for="Kebab">Kebab chicken and fried rice</label>
+            <label style="font-size: 1.5em; font-weight: 700;" for="Kebab">Kebab chicken and fried rice</label><br><br><br>
         </fieldset>
         <fieldset>
-            <legend class="aaa">Special Drinks</legend>
+            <legend style="font-size: 2em; font-weight: 700; color: brown">Special Drinks</legend>
             <input type="checkbox" name="" id="Lacchi">
-            <label for="Lacchi">Lacchi</label>
+            <label style="font-size: 1.5em; font-weight: 700;" for="Lacchi">Lacchi</label>
             <input type="checkbox" name="" id="Milk Shake">
-            <label for="Milk Shake">Milk Shake</label>
+            <label style="font-size: 1.5em; font-weight: 700;" for="Milk Shake">Milk Shake</label>
             <input type="checkbox" name="" id="Kitakat shake">
-            <label for="Kitakat shake">Kitakat shake</label>
+            <label style="font-size: 1.5em; font-weight: 700;" for="Kitakat shake">Kitakat shake</label><br><br>
         </fieldset>
         <fieldset>
-            <legend class="aaa">Drinking Water</legend>
+            <legend style="font-size: 2em; font-weight: 700; color: brown">Drinking Water</legend>
             <input type="checkbox" name="" id="MUM">
-            <label for="MUM">MUM</label>
+            <label style="font-size: 1.5em; font-weight: 700;" for="MUM">MUM</label>
             <input type="checkbox" name="" id="Fresh">
-            <label for="Fresh">Fresh</label>
+            <label style="font-size: 1.5em; font-weight: 700;" for="Fresh">Fresh</label>
             <input type="checkbox" name="" id="SUN">
-            <label for="SUN">SUN</label>
+            <label style="font-size: 1.5em; font-weight: 700;" for="SUN">SUN</label><br><br>
         </fieldset>
         <fieldset>
-            <legend>Anything Else?</legend>
-            <textarea cols="40" rows="4" name="" id=""></textarea>
+            <legend style="font-size: 2em; font-weight: 700; color: brown">Anything Else?</legend>
+            <textarea cols="40" rows="4" name="" id=""></textarea><br><br>
         </fieldset>
+        <input class="aa" type="submit" value="Submit">
+        <input class="aa" type="reset" value="Reset">
     </form>
 </body>
 </html>
